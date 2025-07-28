@@ -1,0 +1,61 @@
+# Environment and secrets
+.env
+*.env
+credentials.json
+token.json
+credentials/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Database and data files (contain personal information)
+data/bills.db
+data/bills.db-*
+*.db
+*.sqlite
+
+# Generated PDFs (contain personal information)
+data/pdfs/*.pdf
+*.pdf
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Operating system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Mac-specific automation files
+monthly_automation.py
+
+# Debug and test files that may contain personal data
+debug_*.py
+test_*.py
+
+# Backup files
+*.bak
+*.backup
